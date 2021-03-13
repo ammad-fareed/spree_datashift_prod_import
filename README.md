@@ -9,11 +9,10 @@ Installation
 1. Add following to your Gemfile:
 
   ```ruby
-  gem 'spree_datashift_prod_import', github: 'vinsol-spree-contrib/spree_datashift_prod_import', branch: <spree-version-compatible>
+  gem 'spree_datashift_prod_import', github: 'ammad-fareed/spree_datashift_prod_import', branch: 'main'
   gem 'datashift_spree', github: 'vinsol-spree-contrib/datashift_spree', branch: '3-2-stable'
   gem 'datashift', github: 'vinsol-spree-contrib/datashift', branch: '3-2-stable'
   ```
-  *The `branch` option is important:* it must match the version of Spree you're using. For example, use `3-1-stable` if you're using Spree `3-1-stable` or any `3.1.x` version.
 
 2. Install the gem using Bundler:
 
